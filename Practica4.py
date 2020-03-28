@@ -1,3 +1,4 @@
+##Cortes Rodriguez Francisco Gerardo
 import datetime
 from time import ctime
 import ntplib
@@ -18,3 +19,4 @@ hora_ajustada = hora_actual + ((hora_llegada-x)/2)
 print("Hora a cambiar: "+str(hora_ajustada))
 f = 'date -u "'+str(hora_ajustada.strftime("%m%d%H%M%Y.%S"))+'"'
 os.system(f)
+
